@@ -1,3 +1,3 @@
-Made a resposive basic webpage with HTML, CSS, Bootstrap5.
+ku cuba aje
 
-view at https://sahil-101.github.io/Inventory-Management-Website-Template/
+view at tunggguu
