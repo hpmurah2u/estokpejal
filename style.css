@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: left;
+  width: 100%;
+  padding: 1% 0%;
+  background-color: #4c51e6;
+  color: #dfd326;
+  font-weight: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#title h2 {
+  font-weight: 400;
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+.sidebar-items div {
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.sidebar-divs h5 {
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.6rem 0.5rem;
+}
+
+.inventory-heading {
+  background-color: #292a10;
+  color: white;
+  font-weight: bold !important;
+}
+
+.sidebar-wrapper {
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+  padding: 0;
+}
+
+.inventory-master-list {
+  padding: 0.5rem 0;
+  border-bottom: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+}
+.inventory-master-list h3 {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.inventory-master-list button {
+  float: right;
+  right: 0%;
+  border: solid grey;
+  border-width: 0.1rem;
+  width: 10rem;
+}
+
+.input-wrapper .row .col-lg-4 input,
+select {
+  display: block;
+  width: 100%;
+  height: 2rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.options button {
+  padding: 0.5rem 2.5rem;
+  margin-right: 3rem;
+  background-color: white;
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+}
+.input-wrapper .row {
+  padding: 0.5rem;
+}
+
+table {
+  margin-top: 3rem;
+}
+
+.table-container {
+  overflow-x: auto !important;
+}
+
+.white-box {
+  width: 60px;
+  height: 80px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 1rem;
+}
+
+tr {
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: right;
+}
+
+.bottom-container div {
+  width: 40px;
+  height: 40px;
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+  margin-left: 1rem;
+}
+
+#toggle_button {
+  width: 4rem;
+  background-color: white;
+  border: solid rgba(0, 0, 0, 0.203);
+  border-width: 0.001rem;
+  border-radius: 1rem 1rem;
+}
+
+@media only screen and (max-width: 799px) {
+  .inventory-master-list button {
+    display: block;
+    float: none;
+  }
+  #toggle_button {
+    display: inline-block;
+  }
+
+  #sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #sidebar {
+    display: inline-block;
+  }
+  #toggle_button {
+    display: none;
+  }
+}
